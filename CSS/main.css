@@ -1,0 +1,632 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+,
+:before,
+*:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Abel', sans-serif;
+    font-weight: 900;
+}
+
+.main-bg {
+    padding-top: 40px;
+    background-image: url(../Img/bg-2.jpg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+.logo {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+    text-align: left;
+    font-weight: 900;
+}
+
+ul.main-menu;
+ul.main-menu > li;
+ul.main-menu > li > a {
+    margin-left: 0;
+    padding: 0;
+}
+
+ul.main-menu > li {
+    margin-right: 30px;
+}
+
+ul.main-menu > li:last-child {
+    margin-right: 0;
+}
+
+ul.main-menu > li > a {
+    text-decoration: none;
+    line-height: 1;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    font-size: 16px;
+    transition-duration: 1s;
+}
+
+ul.main-menu > li > a:hover {
+    border: 1px solid #fff;
+    border-radius: 12px;
+}
+
+.greetings h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.greetings p {
+    color: #fff;
+    font-size: 16px;
+}
+
+.gg {
+    text-align: center;
+}
+
+.gg p {
+    margin-top: 20px;
+}
+
+.glyphicon.glyphicon-download {
+    font-size: 50px;
+    text-align: center;
+    color: darkgreen;
+    margin: 450px;
+    margin-top: 200px;
+}
+
+.glyphicon.glyphicon-download:hover {
+    color: brown;
+}
+
+.gh {
+    background-image: url(../Img/White.png);
+    background-size: cover;
+    width: 100%;
+    background-repeat: repeat;
+    background-position: center center;
+    height: 75vh;
+}
+
+.hj {
+    padding-top: 70px;
+    font-size: 28px;
+    color: #000;
+}
+
+.jk {
+    padding-left: 190px;
+}
+
+.jk2 {
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+.gf {
+    background-color: lightgrey;
+    height: 82vh;
+}
+
+.th {
+    margin-top: 200px;
+    margin-left: 180px;
+    font-weight: 100;
+}
+
+.tj {
+    margin-left: 170px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.ty {
+    border: 2px solid #474747;
+    border-radius: 50px;
+}
+
+
+}
+.ty:hover {
+    border: 3px solid #474747;
+    border-radius: 10px;
+}
+.btn-default:focus,
+.btn-default:hover {
+    background-color: #e0e0e0;
+    background-position: 0 -15px;
+}
+.gly {
+    color: deepskyblue;
+    font-size: 50px;
+    margin-left: 520px;
+    margin-top: 100px;
+}
+.gly:hover {
+    color: dodgerblue;
+}
+.tj2 {
+    margin-top: 60px;
+}
+.qw {
+    margin-top: 40px;
+    text-align: center;
+}
+.we {
+    margin-top: 30px;
+}
+.we2 {
+    text-align: center;
+}
+.gt {
+    color: dimgrey;
+    font-size: 45px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.gt:hover {
+    color: limegreen;
+}
+h2 {
+    font-weight: 200;
+    font-size: 30px;
+}
+.h23 {
+    font-weight: 200;
+    font-size: 25px;
+}
+.rt {
+    background-image: url(../Img/White.png);
+    background-size: cover;
+    width: 100%;
+    background-repeat: repeat;
+    background-position: center center;
+    height: 30vh;
+}
+.bnm {
+    margin-right: 40px;
+}
+.bnm2 {
+    margin-left: ;
+}
+.pad {
+    padding: 0;
+}
+.nm {
+    filter: grayscale(100%);
+    transition-duration: 2s;
+}
+.nm:hover {
+    filter: grayscale(0%);
+    transition-duration: 2s;
+}
+.item {
+    display: inline-block;
+    position: relative;
+}
+.item:nth-child(1) {
+    width: 50%;
+}
+.item:nth-child(2) {
+    width: 24.5%;
+}
+.item:nth-child(3) {
+    width: 24.5%;
+}
+.item > img {
+    width: 100%;
+    height: 200px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+.hoverr h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+    color: #fff;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+}
+.hoverr {
+    position: absolute;
+    ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    display: none;
+}
+.item:hover .hoverr {
+    display: block;
+    background-color: #000;
+    opacity: .5;
+}
+.item:hover .hoverr h3 {
+    margin-top: 80px;
+    display: block;
+    color: #fff;
+}
+.ytr {
+    margin-top: 27px;
+    margin-right: 200px;
+    font-size: 35px;
+}
+.ytr:hover {
+    color: deepskyblue;
+}
+.fgv {
+    /*    margin-top: 50px;*/
+    
+    margin-left: 30px;
+}
+.rty {
+    list-style-type: none;
+    margin-left: 140px;
+    margin-top: 70px;
+    padding-bottom: 10px;
+}
+.rty1 {
+    font-size: 15px;
+    list-style-type: none;
+    margin-left: 140px;
+}
+.rty2 {
+    list-style-type: none;
+    margin-left: 140px;
+}
+.wrapper {
+    width: 100px;
+    /* Set the size of the progress bar */
+    
+    height: 100px;
+    position: absolute;
+    /* Enable clipping */
+    
+    clip: rect(0px, 100px, 100px, 50px);
+    /* Hide half of the progress bar */
+}
+
+/* Set the sizes of the elements that make up the progress bar */
+.circle {
+    width: 80px;
+    height: 80px;
+    border: 3px solid darkturquoise;
+    border-radius: 50px;
+    position: absolute;
+    clip: rect(0px, 50px, 100px, 0px);
+}
+
+/* Using the data attributes for the animation selectors. */
+
+/* Base settings for all animated elements */
+div[data-anim~=base] {
+    -webkit-animation-iteration-count: 1;
+    /* Only run once */
+    
+    -webkit-animation-fill-mode: forwards;
+    /* Hold the last keyframe */
+    
+    -webkit-animation-timing-function: linear;
+    /* Linear animation */
+}
+.wrapper[data-anim~=wrapper] {
+    -webkit-animation-duration: 0.01s;
+    /* Complete keyframes asap */
+    
+    -webkit-animation-delay: 3s;
+    /* Wait half of the animation */
+    
+    -webkit-animation-name: close-wrapper;
+    /* Keyframes name */
+}
+.circle[data-anim~=left] {
+    -webkit-animation-duration: 6s;
+    /* Full animation time */
+    
+    -webkit-animation-name: left-spin;
+}
+.circle[data-anim~=right] {
+    -webkit-animation-duration: 3s;
+    /* Half animation time */
+    
+    -webkit-animation-name: right-spin;
+}
+
+/* Rotate the right side of the progress bar from 0 to 180 degrees */
+@-webkit-keyframes right-spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    
+    to {
+        -webkit-transform: rotate(180deg);
+    }
+}
+
+/* Rotate the left side of the progress bar from 0 to 360 degrees */
+@-webkit-keyframes left-spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+/* Set the wrapper clip to auto, effectively removing the clip */
+@-webkit-keyframes close-wrapper {
+    to {
+        clip: rect(auto, auto, auto, auto);
+    }
+}
+.progBar {
+    margin-top: 130px;
+    margin-left: 60px;
+}
+.progBar1 {
+    margin-top: 130px;
+    margin-left: 200px;
+}
+.progBar2 {
+    margin-top: 130px;
+    margin-left: 340px;
+}
+.perceBar {
+    margin-top: 29px;
+    margin-left: 27px;
+}
+.jumbotro {
+    background-size: contain;
+    height: 60vh;
+    background-image: url(../Img/Rectangle%201.png);
+    position: relative;
+}
+.jumbo:hover {
+    background: black;
+    opacity: .3;
+}
+.mac {
+    position: absolute;
+    margin-left: 800px;
+    margin-bottom: 29px;
+}
+.mac p {
+    font-size: 12px;
+    font-weight: 900;
+}
+.absgreen {
+    /*    position: absolute;*/
+    /*    background-color: mediumseagreen;*/
+    /*    opacity: .3;*/
+    /*    margin-bottom: 40px;*/
+}
+.macimpss {
+    color: ghostwhite;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+.macimpss1 {
+    color: ghostwhite;
+    margin-top: 30px;
+}
+.macimpss2 {
+    color: ghostwhite;
+    font-weight: bold;
+}
+.back {
+    background-image: url(../Img/Rectangle%204%20copy.png);
+    height=120;
+    padding-top: 40px;
+    position: relative;
+    top: -6px;
+}
+.pback {
+    font-size: 17px;
+    color: white;
+    font-weight: 900;
+}
+.buttnback {
+    text-align: right;
+    margin-bottom: 10px;
+}
+.llms-progress-circle {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.llms-progress-circle-count {
+    position: absolute;
+    top: 66px;
+    left: -10px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 50px;
+    color: #666;
+    font-size: 44px;
+}
+.llms-progress-circle svg {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+.llms-progress-circle circle {
+    fill: transparent;
+}
+svg .llms-background-circle {
+    fill: transparent;
+    stroke-width: 10px;
+    stroke: #f1f2f1;
+    stroke-dasharray: 430;
+}
+svg .llms-animated-circle {
+    fill: transparent;
+    stroke-width: 10px;
+    stroke: #19bd9a;
+    stroke-dasharray: 430;
+    stroke-dashoffset: 430 - 20
+}
+.grid-item-content {
+    height: 100px;
+    background: #D26;
+    border: 2px solid hsla(0, 0%, 0%, 0.5);
+    border-radius: 5px;
+}
+.grid-item-content--height2 {
+    height: 200px;
+}
+
+/*UNDERLINE*/
+.rtgf {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+.rtgf:hover {
+    color: #000;
+}
+.rtgf:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: lightseagreen;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+.rtgf:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+/*(end)UNDERLINE*/
+.rtg {
+    margin-top: 40px;
+    margin: 30px;
+}
+a.rtgf1 {
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/*Mosaic*/
+.mosaicflow__item {
+    padding: 3px;
+}
+.mosaicflow__column {
+    float: left;
+}
+.mosaicflow__item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 4px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.mosaicflow__item img:hover {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+/*(end)Mosaic*/
+.qsd {
+    margin-top: 50px;
+}
+.pict {
+    margin-top: 30px;
+    width: 100%;
+}
+.image {
+    position: relative;
+    width: 100%;
+    /* for IE 6 */
+}
+.dfc {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+}
+.feature-bg {
+    width: 100%;
+    height: 110px;
+    background-image: url(../Img/Rectangle%204%20copy.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    top: -6px;
+    padding-top: 40px;
+}
+.feature-bg span {
+    margin-left: 50px;
+    margin-right: 30px;
+    color: #Fff;
+    font-size: 16px;
+}
+.feature-bg a {
+    padding: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid #fff;
+}
+.qwsx {
+    width: 100%;
+    height: 160px;
+    background-image: url(../Img/Rectangle%207%20copy.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+    padding-top: 70px;
+    margin-top: 40px;
+}
+.qwsx span {
+    margin-left: 50px;
+    margin-right: 30px;
+    color: #Fff;
+    font-size: 16px;
+}
+.qwsx a {
+    padding: 5px;
+    margin-left: 400px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid #fff;
+}
